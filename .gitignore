@@ -1,0 +1,20 @@
+# Data are public and downloaded by the scripts; never commit them
+03_original_data/
+04_processed_data/
+06_results/
+*.h5
+*.h5ad
+*.mtx
+*.mtx.gz
+*.tar
+*.tar.gz
+*.zip
+*.Rhistory
+.RData
+.Rproj.user/
+*_before_*
+~$*
+.DS_Store
+Thumbs.db
+# but keep the frozen panels supplied with the release
+!frozen_panels/*.rds

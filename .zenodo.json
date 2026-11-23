@@ -1,0 +1,14 @@
+{
+  "title": "Evidence-graded molecular benchmarks for colorectal cancer-on-a-chip: code, frozen panels and protocols (v1.2)",
+  "upload_type": "software",
+  "description": "Code, frozen gene panels (with SHA-256 hashes), dated analysis protocols and metadata for the study 'Evidence-Graded Molecular Benchmarks for Colorectal Cancer-on-a-Chip Models Derived from Single-Cell and Spatial Transcriptomics' (Bioinformatics Advances, submitted 2026). Compact transcript panels for eight programs in five tumor-microenvironment compartments were selected in a discovery single-cell cohort, frozen, and evaluated in three independent single-cell cohorts and three spatial cohorts. All input data are public and are not redistributed.",
+  "creators": [
+    {"name": "Mohammed, Abdurehman Eshete", "affiliation": "Marmara Research Center (MAM), TÜBİTAK, Kocaeli, Türkiye", "orcid": "0000-0002-9459-8378"},
+    {"name": "Shaikh, Soni", "affiliation": "Marmara Research Center (MAM), TÜBİTAK, Kocaeli, Türkiye"},
+    {"name": "Cetin, Yuksel", "affiliation": "Marmara Research Center (MAM), TÜBİTAK, Kocaeli, Türkiye"}
+  ],
+  "license": "MIT",
+  "version": "1.2",
+  "keywords": ["colorectal cancer", "single-cell transcriptomics", "spatial transcriptomics", "organ-on-a-chip", "molecular benchmarks"],
+  "access_right": "open"
+}

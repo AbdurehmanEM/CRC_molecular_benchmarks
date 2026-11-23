@@ -1,0 +1,98 @@
+List of 13
+ $ programs         :List of 7
+  ..$ END_ANGIO    :List of 9
+  .. ..$ program                : chr "END_ANGIO"
+  .. ..$ compartment            : chr "Endothelial"
+  .. ..$ n_donors               : int 40
+  .. ..$ donors                 : chr [1:40] "C103" "C104" "C107" "C112" ...
+  .. ..$ panel                  :Classes ‘data.table’ and 'data.frame':	4 obs. of  5 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ intercept              : num -4.2e-17
+  .. ..$ lambda                 : num 0.244
+  .. ..$ evaluation_genes       :Classes ‘data.table’ and 'data.frame':	15 obs. of  4 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ conventional_genes_used: chr "ENSG00000133110.14_3"
+  ..$ END_TNFA_NFKB:List of 9
+  .. ..$ program                : chr "END_TNFA_NFKB"
+  .. ..$ compartment            : chr "Endothelial"
+  .. ..$ n_donors               : int 40
+  .. ..$ donors                 : chr [1:40] "C103" "C104" "C107" "C112" ...
+  .. ..$ panel                  :Classes ‘data.table’ and 'data.frame':	4 obs. of  5 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ intercept              : num -4.01e-17
+  .. ..$ lambda                 : num 0.409
+  .. ..$ evaluation_genes       :Classes ‘data.table’ and 'data.frame':	94 obs. of  4 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ conventional_genes_used: chr(0) 
+  ..$ EPI_APOPTOSIS:List of 9
+  .. ..$ program                : chr "EPI_APOPTOSIS"
+  .. ..$ compartment            : chr "Epithelial"
+  .. ..$ n_donors               : int 60
+  .. ..$ donors                 : chr [1:60] "C103" "C104" "C105" "C106" ...
+  .. ..$ panel                  :Classes ‘data.table’ and 'data.frame':	4 obs. of  5 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ intercept              : num 4.12e-17
+  .. ..$ lambda                 : num 0.314
+  .. ..$ evaluation_genes       :Classes ‘data.table’ and 'data.frame':	69 obs. of  4 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ conventional_genes_used: chr [1:2] "ENSG00000064012.21_5" "ENSG00000171552.12_3"
+  ..$ EPI_HYPOXIA  :List of 9
+  .. ..$ program                : chr "EPI_HYPOXIA"
+  .. ..$ compartment            : chr "Epithelial"
+  .. ..$ n_donors               : int 60
+  .. ..$ donors                 : chr [1:60] "C103" "C104" "C105" "C106" ...
+  .. ..$ panel                  :Classes ‘data.table’ and 'data.frame':	2 obs. of  5 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ intercept              : num -6.18e-17
+  .. ..$ lambda                 : num 0.327
+  .. ..$ evaluation_genes       :Classes ‘data.table’ and 'data.frame':	83 obs. of  4 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ conventional_genes_used: chr [1:4] "ENSG00000104419.14_4" "ENSG00000117394.21_3" "ENSG00000134333.13_3" "ENSG00000148926.9_3"
+  ..$ MYE_IFNG     :List of 9
+  .. ..$ program                : chr "MYE_IFNG"
+  .. ..$ compartment            : chr "Myeloid"
+  .. ..$ n_donors               : int 60
+  .. ..$ donors                 : chr [1:60] "C103" "C104" "C105" "C106" ...
+  .. ..$ panel                  :Classes ‘data.table’ and 'data.frame':	4 obs. of  5 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ intercept              : num -5.47e-17
+  .. ..$ lambda                 : num 0.489
+  .. ..$ evaluation_genes       :Classes ‘data.table’ and 'data.frame':	97 obs. of  4 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ conventional_genes_used: chr [1:2] "ENSG00000115415.18_5" "ENSG00000131203.12_4"
+  ..$ MYE_INFLAM   :List of 9
+  .. ..$ program                : chr "MYE_INFLAM"
+  .. ..$ compartment            : chr "Myeloid"
+  .. ..$ n_donors               : int 60
+  .. ..$ donors                 : chr [1:60] "C103" "C104" "C105" "C106" ...
+  .. ..$ panel                  :Classes ‘data.table’ and 'data.frame':	4 obs. of  5 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ intercept              : num -4.46e-17
+  .. ..$ lambda                 : num 0.494
+  .. ..$ evaluation_genes       :Classes ‘data.table’ and 'data.frame':	87 obs. of  4 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ conventional_genes_used: chr(0) 
+  ..$ STR_TGFB     :List of 9
+  .. ..$ program                : chr "STR_TGFB"
+  .. ..$ compartment            : chr "Stromal"
+  .. ..$ n_donors               : int 27
+  .. ..$ donors                 : chr [1:27] "C103" "C109" "C111" "C112" ...
+  .. ..$ panel                  :Classes ‘data.table’ and 'data.frame':	4 obs. of  5 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ intercept              : num 1.24e-16
+  .. ..$ lambda                 : num 0.158
+  .. ..$ evaluation_genes       :Classes ‘data.table’ and 'data.frame':	26 obs. of  4 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ conventional_genes_used: chr "ENSG00000136603.13_4"
+ $ normalisation    : chr "log2-CPM per sample, edgeR::cpm(log = TRUE, prior.count = 2), library-size only"
+ $ target_definition: chr "mean over evaluation genes of (log2-CPM - eval_mean) / eval_sd, discovery parameters"
+ $ prediction       : chr "intercept + sum(coefficient * (log2-CPM - pred_mean) / pred_sd)"
+ $ gene_id_rule     : chr "match by Ensembl ID (version stripped) where available, otherwise by gene symbol"
+ $ missing_gene_rule: chr "if any panel gene is absent in a validation cohort, that program is reported as not evaluable (no imputation)"
+ $ metrics          : chr "primary MAE; secondary RMSE, Spearman, calibration slope/intercept; compared with discovery-mean baseline"
+ $ min_cells        : num 20
+ $ max_genes        : num 4
+ $ alpha            : num 0.5
+ $ partition_hash   : chr "90280a13b2629844e6aa913559286ca6"
+ $ created          : chr "2026-10-09 10:22:16.799952"
+ $ protocol         : chr "v0.7"

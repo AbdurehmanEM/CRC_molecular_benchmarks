@@ -1,0 +1,23 @@
+Forward-citation check (Scopus "Cited by"), 12 November 2026
+Google Scholar was attempted first but blocked the session with a robot check (CAPTCHA); Scopus used instead.
+Seed papers: Dai 2026 Cell Rep Med (2 citing), Strelez 2025 Oncogene (8), Hachey 2021 Lab Chip (116).
+Combined citing documents: 124 (titles screened; abstracts read for the 6 most relevant).
+
+Result: no citing paper derives patient-data-based, multi-compartment marker panels for chip assessment.
+
+Closest primary studies (candidates for S17, not yet added):
+- Hachey SJ et al. 2023, Transl Res 255:97-108. Patient-derived CRC vascularised micro-tumour (pVMT) from 6 patients;
+  compared with the patients' tumours on growth, histology, metabolic heterogeneity and drug response. No transcriptomic
+  marker panel, no independent cohort, no spatial transcriptomics.
+- Komen J et al. 2022, Micromachines 13:739. HCT116 spheroid cancer-on-chip vs xenografts (oxaliplatin; proliferation and
+  apoptosis markers by IHC). Benchmark against xenografts, not patient data.
+- Nguyen HT et al. 2025, Biomaterials 312:122731. Patient-specific vascularised tumour model (breast, lung); monocyte recruitment.
+  Not CRC.
+- Strelez C et al. 2021, iScience 24:102509. CRC-on-chip (endothelial/epithelial channels, fibroblasts); metabolite profiles.
+  No patient-derived marker selection.
+
+Reviews useful as background:
+- Gaebler D, Hachey SJ, Hughes CCW 2024, Front Bioeng Biotechnol 12:1462293 - argues for integrating single-cell sequencing
+  with TME chips.
+- Wu Y-T et al. 2026, Pharmaceutics 18:1227 - framework separating model qualification from external association and
+  prospective predictive validity; reports that independently validated prospective prediction is rarely demonstrated.

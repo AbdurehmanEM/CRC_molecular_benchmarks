@@ -1,0 +1,5 @@
+Database: Scopus, searched 12 November 2026
+Query: TITLE-ABS-KEY(("colorectal cancer" OR "colon cancer" OR "rectal cancer") AND ("organ-on-a-chip" OR "organ-on-chip" OR "tumor-on-a-chip" OR "tumour-on-a-chip" OR "cancer-on-a-chip" OR "microphysiological system*" OR microfluidic*) AND ("single-cell" OR "single cell" OR "spatial transcriptom*" OR "RNA-seq" OR "RNA sequencing" OR transcriptom* OR biomarker*))
+No limits. Records: 272. Shared with PubMed focused set: 98; Scopus-only: 174; unique overall: 281.
+Scopus-only screening: 9 eligible (2 low priority), 93 reviews/editorials/chapters/surveys, 72 excluded.
+No record derives patient-data-based multi-compartment marker panels for chip assessment.

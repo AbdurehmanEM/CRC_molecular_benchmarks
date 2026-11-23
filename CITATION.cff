@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code or the frozen panels, please cite the article and this archive."
+title: "Evidence-graded molecular benchmarks for colorectal cancer-on-a-chip: code, frozen panels and protocols"
+version: "1.2"
+date-released: "2026-11-12"
+license: MIT
+type: software
+authors:
+  - family-names: "Mohammed"
+    given-names: "Abdurehman Eshete"
+    orcid: "https://orcid.org/0000-0002-9459-8378"
+    affiliation: "Biotechnology Research Group, Climate and Life Sciences, Marmara Research Center (MAM), The Scientific and Technological Research Council of Türkiye (TÜBİTAK), Kocaeli, Türkiye"
+  - family-names: "Shaikh"
+    given-names: "Soni"
+    affiliation: "Biotechnology Research Group, Climate and Life Sciences, Marmara Research Center (MAM), The Scientific and Technological Research Council of Türkiye (TÜBİTAK), Kocaeli, Türkiye"
+  - family-names: "Cetin"
+    given-names: "Yuksel"
+    affiliation: "Biotechnology Research Group, Climate and Life Sciences, Marmara Research Center (MAM), The Scientific and Technological Research Council of Türkiye (TÜBİTAK), Kocaeli, Türkiye"
+repository-code: "https://github.com/AbdurehmanEM/CRC_molecular_benchmarks"
+keywords:
+  - colorectal cancer
+  - single-cell transcriptomics
+  - spatial transcriptomics
+  - organ-on-a-chip
+  - molecular benchmarks
+preferred-citation:
+  type: article
+  title: "Evidence-Graded Molecular Benchmarks for Colorectal Cancer-on-a-Chip Models Derived from Single-Cell and Spatial Transcriptomics"
+  authors:
+    - family-names: "Mohammed"
+      given-names: "Abdurehman Eshete"
+    - family-names: "Shaikh"
+      given-names: "Soni"
+    - family-names: "Cetin"
+      given-names: "Yuksel"
+  journal: "Bioinformatics Advances"
+  year: 2026
+  notes: "Submitted"

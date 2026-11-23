@@ -1,0 +1,27 @@
+List of 14
+ $ programs         :List of 1
+  ..$ LYM_IL2_STAT5:List of 9
+  .. ..$ program                : chr "LYM_IL2_STAT5"
+  .. ..$ compartment            : chr "Lymphoid"
+  .. ..$ n_donors               : int 53
+  .. ..$ donors                 : chr [1:53] "C103" "C104" "C105" "C106" ...
+  .. ..$ panel                  :Classes ‘data.table’ and 'data.frame':	4 obs. of  6 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ intercept              : num 1.23e-17
+  .. ..$ lambda                 : num 0.304
+  .. ..$ evaluation_genes       :Classes ‘data.table’ and 'data.frame':	84 obs. of  4 variables:
+  .. .. ..- attr(*, ".internal.selfref")=<pointer: (nil)> 
+  .. ..$ conventional_genes_used: chr "ENSG00000120833.13_5"
+ $ normalisation    : chr "log2-CPM per sample, edgeR::cpm(log = TRUE, prior.count = 2), library-size only"
+ $ target_definition: chr "mean over evaluation genes of (log2-CPM - eval_mean) / eval_sd, discovery parameters"
+ $ prediction       : chr "intercept + sum(coefficient * (log2-CPM - pred_mean) / pred_sd)"
+ $ gene_id_rule     : chr "match by Ensembl ID (version stripped) where available, otherwise by gene symbol"
+ $ missing_gene_rule: chr "if any panel gene is absent in a validation cohort, that program is reported as not evaluable (no imputation)"
+ $ metrics          : chr "primary MAE; secondary RMSE, Spearman, calibration slope/intercept; compared with discovery-mean baseline"
+ $ min_cells        : num 20
+ $ max_genes        : num 4
+ $ alpha            : num 0.5
+ $ partition_hash   : chr "a3235d265b2eaad9335322541c41dc34"
+ $ created          : chr "2026-10-15 11:23:47.354284"
+ $ protocol         : chr "v1.8"
+ $ note             : chr "Additive lymphoid compartment. Independent of frozen_panel_v2.rds, which is unchanged."

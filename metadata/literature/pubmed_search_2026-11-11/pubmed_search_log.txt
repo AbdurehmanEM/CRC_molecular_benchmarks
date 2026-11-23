@@ -1,0 +1,8 @@
+Search date: 2026-11-11
+Database: PubMed (NCBI E-utilities via rentrez)
+Broad query: ("colorectal neoplasms"[MeSH Terms] OR "colorectal cancer"[tiab] OR "colon cancer"[tiab] OR "rectal cancer"[tiab]) AND ("lab-on-a-chip devices"[MeSH Terms] OR "microphysiological systems"[MeSH Terms] OR "organ-on-a-chip"[tiab] OR "organ-on-chip"[tiab] OR "tumor-on-a-chip"[tiab] OR "tumour-on-a-chip"[tiab] OR "cancer-on-a-chip"[tiab] OR "microphysiological system*"[tiab] OR microfluidic*[tiab])
+Broad count: 354
+Focused query: ("colorectal neoplasms"[MeSH Terms] OR "colorectal cancer"[tiab] OR "colon cancer"[tiab] OR "rectal cancer"[tiab]) AND ("lab-on-a-chip devices"[MeSH Terms] OR "microphysiological systems"[MeSH Terms] OR "organ-on-a-chip"[tiab] OR "organ-on-chip"[tiab] OR "tumor-on-a-chip"[tiab] OR "tumour-on-a-chip"[tiab] OR "cancer-on-a-chip"[tiab] OR "microphysiological system*"[tiab] OR microfluidic*[tiab]) AND ("single-cell"[tiab] OR "single cell"[tiab] OR "spatial transcriptom*"[tiab] OR "RNA-seq"[tiab] OR "RNA sequencing"[tiab] OR transcriptom*[tiab] OR biomarker*[tiab])
+Focused count: 107
+Records saved: 107
+Reviews among them: 13
