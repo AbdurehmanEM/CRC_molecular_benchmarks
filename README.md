@@ -4,7 +4,7 @@ Code, frozen gene panels, protocols and metadata for:
 
 > Mohammed AE, Shaikh S, Cetin Y. *Evidence-Graded Molecular Benchmarks for Colorectal Cancer-on-a-Chip Models Derived from Single-Cell and Spatial Transcriptomics.* Bioinformatics Advances (submitted, 2026).
 
-Release **v1.2** (November 2026) is the version described in the submitted manuscript, including the analyses added in response to pre-submission review. Archived at Zenodo: **[DOI]** · GitHub: **https://github.com/AbdurehmanEM/CRC_molecular_benchmarks**
+Release **v1.2** (November 2026) is the version described in the submitted manuscript, including the analyses added in response to pre-submission review. Archived at Zenodo: **https://doi.org/10.5281/zenodo.24459854** · GitHub: **https://github.com/AbdurehmanEM/CRC_molecular_benchmarks**
 
 ## What this repository contains
 
