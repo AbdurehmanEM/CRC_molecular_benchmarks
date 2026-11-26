@@ -15,9 +15,9 @@ s34 <- s34[!grepl("_before_", s34)][1]
 if (is.na(s34)) stop("Script 34 not found in 05_analysis_scripts")
 msg("Running", basename(s34), "(this repeats its computation; outputs are identical)")
 env <- new.env()
-old <- setwd(PROJECT_ROOT); on.exit(setwd(old), add = TRUE)
-sys.source(s34, envir = env)
-setwd(old)
+# on.exit() fires immediately when this file is source()d, so restore the directory explicitly
+old <- setwd(PROJECT_ROOT)
+tryCatch(sys.source(s34, envir = env), finally = setwd(old))
 
 donor_pat <- c(GSE166555 = "^p0\\d\\d$", GSE144735 = "^KUL\\d+$")
 found <- list()

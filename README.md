@@ -4,16 +4,16 @@ Code, frozen gene panels, protocols and metadata for:
 
 > Mohammed AE, Shaikh S, Cetin Y. *Evidence-Graded Molecular Benchmarks for Colorectal Cancer-on-a-Chip Models Derived from Single-Cell and Spatial Transcriptomics.* Bioinformatics Advances (submitted, 2026).
 
-Release **v1.2** (November 2026) is the version described in the submitted manuscript, including the analyses added in response to pre-submission review. Archived at Zenodo: **https://doi.org/10.5281/zenodo.24459854** · GitHub: **https://github.com/AbdurehmanEM/CRC_molecular_benchmarks**
+Release **v1.3** (November 2026) is the version described in the submitted manuscript, including the analyses added in response to pre-submission review and the comparator and grading-rule analyses of protocol v2.3. Archived at Zenodo: **https://doi.org/10.5281/zenodo.24459854** · GitHub: **https://github.com/AbdurehmanEM/CRC_molecular_benchmarks**
 
 ## What this repository contains
 
 | Folder | Content |
 |---|---|
 | `scripts/` | All R (and two Python) scripts, numbered in run order. `00_run_all.R` runs the main pipeline. |
-| `scripts/revision/` | Post hoc analyses added in response to pre-submission review (scripts 45 and 50–67). |
-| `frozen_panels/` | The two frozen panels exactly as used for external validation (`.rds`), their SHA-256 hashes, and a readable CSV of every gene, coefficient, intercept and scaling value. |
-| `protocol/` | Dated protocol versions (v0.1–v2.2) and the amendment log. Supplementary Table S14 lists every change made after a related result was known. |
+| `scripts/revision/` | Post hoc analyses added in response to pre-submission review (scripts 45, 50–67, 73a, 73b and 74). |
+| `frozen_panels/` | The two frozen panels exactly as used for external validation (`.rds`), their SHA-256 hashes, and a readable CSV of every gene, coefficient, intercept and scaling value; also the frozen comparators of protocol v2.3. |
+| `protocol/` | Dated protocol versions (v0.1–v2.3) and the amendment log. Supplementary Table S14 lists every change made after a related result was known. |
 | `metadata/` | Input manifest with SHA-256 checksums of all original data files (Supplementary Table S16), dataset eligibility audit, and the literature-search logs (PubMed, Scopus). |
 | `supplementary/` | Supplementary Tables (xlsx) and Supplementary Methods as submitted. |
 | `environment/` | R version, package versions and `sessionInfo()` of the machine that produced the results. |
@@ -65,6 +65,7 @@ Re-running the panel-freezing stage regenerates `frozen_panel_v2.rds` with a new
 | `frozen_panel_v2.rds` | 7 programs, 26 genes | `a14ccb4583a901ec3fc1b0c4ba2afcf9e21de5b72150cb3598ce8a6f9da3e0eb` |
 | `frozen_panel_LYM_v1.rds` | CD8 IL2/STAT5, 4 genes | `7dc3256d97477a796fcacd1df71021740888f7978a01ea36caf70787da7f513f` |
 | `frozen_panel_v1.rds` | superseded penalized version (protocol v0.8); not used for validation, kept for transparency | `f5be7339aa1a4e09b479335d6f4f4d50d3f680ac52648d1495053abbff72a0d4` |
+| `frozen_comparators_v2.3.rds` | comparators C1 (compartment DE markers) and C2 (top-4 correlated genes) for the post hoc comparison of protocol v2.3 (script 73a) | `f9e6bb28187dfb275652f6c3e78cfb7441ee9a75592dca3b08a2e9d765b23b7f` |
 
 ## Main results (frozen discovery scaling, primary endpoint)
 
@@ -75,7 +76,7 @@ Re-running the panel-freezing stage regenerates `frozen_panel_v2.rds` with a new
 | Epithelial apoptosis, myeloid IFN-γ response, myeloid inflammatory response, stromal TGF-β response, CD8 IL2/STAT5 | Exploratory |
 | Endothelial angiogenesis | Unsupported |
 
-Full numbers are in the Supplementary Tables.
+Full numbers are in the Supplementary Tables. Two post hoc analyses (protocol v2.3) qualify these grades: an external comparison with conventional marker selection (Supplementary Table S8g; scripts 73a, 73b) and the sensitivity of the categories to the assignment rule (Supplementary Table S11b; script 74). Under alternative rules, the TNF/NF-κB grade depends on accepting single-cohort support and frozen scaling.
 
 ## Known limitations of the code
 

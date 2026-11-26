@@ -1,10 +1,11 @@
 # Protocol version index
 
-Twenty-two dated protocol versions, written during the study. Each version states what was fixed and when, relative to the data. **No version was edited after its date.** Versions v0.1–v1.9 therefore carry the original working title; the title was revised in v2.0 and v2.1, and the v2.1 title was restored in v2.2 after interim wording used during revision; the earlier files were deliberately left alone.
+Twenty-three dated protocol versions, written during the study. Each version states what was fixed and when, relative to the data. **No version was edited after its date.** Versions v0.1–v1.9 therefore carry the original working title; the title was revised in v2.0 and v2.1, and the v2.1 title was restored in v2.2 after interim wording used during revision; the earlier files were deliberately left alone.
 
 Frozen artefacts referenced throughout:
 - `frozen_panel_v2.rds` — SHA-256 `a14ccb4583a901ec3fc1b0c4ba2afcf9e21de5b72150cb3598ce8a6f9da3e0eb` (7 programs, 26 genes, four compartments)
 - `frozen_panel_LYM_v1.rds` — SHA-256 `7dc3256d97477a796fcacd1df71021740888f7978a01ea36caf70787da7f513f` (1 program, 4 genes, lymphoid compartment)
+- `frozen_comparators_v2.3.rds` — SHA-256 `f9e6bb28187dfb275652f6c3e78cfb7441ee9a75592dca3b08a2e9d765b23b7f` (comparators C1/C2, 8 programs; v2.3)
 
 | Version | Date | What it fixed | Timing relative to data |
 |---|---|---|---|
@@ -30,6 +31,7 @@ Frozen artefacts referenced throughout:
 | v2.0 | 16 Oct 2026 | Manuscript title revised | Editorial only; no result, rule or frozen artefact changed |
 | v2.1 | 20 Oct 2026 | Title revised to "Evidence-Graded Molecular Benchmarks…"; spatial analysis repeated with a randomly drawn RCTD reference (h5-order bias found in code review) | **Post hoc, disclosed as such.** Frozen panels and primary spatial reference unchanged; no evidence category changed; apoptosis spatial label Spatial → Partial |
 | v2.2 | 13 Nov 2026 | Title restored to "Evidence-Graded Molecular Benchmarks…" after the interim wording "candidate molecular references"; definition of "molecular benchmark" required in Introduction and Conclusion | Editorial only; no analysis, rule, number or frozen artefact changed |
+| v2.3 | 23 Nov 2026 | External comparison of the frozen panels with two comparators (C1 compartment DE markers; C2 top-4 correlated genes), selected on discovery data and frozen (scripts 73a, 73b); grading-rule sensitivity under three alternative rules (script 74); execution records included | **Post hoc analysis, disclosed as such** (prompted by pre-submission review, after validation results were known); comparators frozen before any validation cohort was scored; no panel or evidence category changed |
 
 ## Companion records
 

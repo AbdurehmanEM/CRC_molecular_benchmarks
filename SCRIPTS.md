@@ -93,3 +93,6 @@ Generated from the first comment line of each script.
 | `scripts/revision/65_merge_supplementary_workbook.py` |  |
 | `scripts/revision/66_pubmed_search.R` | 66_pubmed_search.R - documented PubMed search for the prior-art comparison (reviewer point 1) |
 | `scripts/revision/67_scopus_screening_decisions.py` | 67_scopus_screening_decisions.py |
+| `scripts/revision/73a_freeze_comparators.R` | 73a_freeze_comparators.R - Protocol amendment v2.3, PART A (discovery only) |
+| `scripts/revision/73b_score_comparators.R` | 73b_score_comparators.R - Protocol amendment v2.3, PART B (external scoring) |
+| `scripts/revision/74_grading_rule_sensitivity.R` | 74_grading_rule_sensitivity.R - Protocol amendment v2.3, grading-rule sensitivity |

@@ -42,6 +42,9 @@ Script 60 (spacexr) and the clean-room part of 63 could not be tested here (see 
 | 12 | `59_spatial_rerun.R` | 9, 10 | exported sections (section 0 of the script) | ~1 h |
 | 13 | `63_reproducibility_clean_room.R` | 27 | digest; clean room optional (~12 h) | minutes / hours |
 | 14 | `64_collect_revision_tables.R` | all | whatever has run | seconds |
+| 15 | `73a_freeze_comparators.R` | comparison with conventional marker selection (protocol v2.3; discovery only, freezes comparators) | gate + pseudobulk | ~40 min |
+| 16 | `73b_score_comparators.R` | external scoring of panels vs comparators (Supplementary Table S8g) | step 15 (hash checked); step 1b for CD8 in GSE166555 | minutes |
+| 17 | `74_grading_rule_sensitivity.R` | evidence categories under alternative rules (Supplementary Table S11b) | workbook only | seconds |
 
 Run everything with `source("00_run_revision.R")` from the `revision` folder (each script runs in a fresh R
 process; logs go to `logs/`). Or run the scripts one at a time in the order above.
@@ -89,6 +92,8 @@ panels are only read (their hashes are checked in step 1), and the seed for new 
 - **61 (point 13).** Next-best and single-swap panels from S7b selection frequencies (post hoc, exploratory).
 - **62 (point 26).** Published CV repeated with selection inside folds; out-of-fold MAE ratios by MMR
   status and tumour site with bootstrap CIs and ratio-of-ratios.
+- **73a/73b (protocol v2.3).** Comparators C1 (four predictor-pool genes most enriched in the compartment; donor-level pseudobulk edgeR QL against all other compartments) and C2 (four genes most correlated with the target), selected and calibrated on discovery donors, frozen with SHA-256, then scored with the panels' own validation code; paired bootstrap of panel vs comparator MAE.
+- **74 (protocol v2.3).** Re-derives the evidence categories from S8, S8b and S10c under the published rule (gate: must reproduce S11) and under three alternative rules (two supported cohorts; within-cohort scaling; spatial criterion A alone or three-quarter thresholds).
 - **63 (point 27).** SHA-256 input manifest, package versions, optional clean-room re-run from stage 11
   with CSV-by-CSV comparison.
 
